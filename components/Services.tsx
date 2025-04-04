@@ -62,7 +62,7 @@ export function Services() {
             Why Choose <span className="text-[#025fc3]">CWA</span> Academy
           </h2>
           <p className="mt-4 text-gray-600 text-lg max-w-3xl mx-auto">
-            We're dedicated to making cloud computing education accessible to everyone
+            We&apos;re dedicated to making cloud computing education accessible to everyone
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10 max-w-7xl mx-auto bg-white">

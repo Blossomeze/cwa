@@ -13,7 +13,7 @@ type Testimonial = {
 
 const testimonials: Testimonial[] = [
   {
-    quote: "Designor's efficiency in generating code snippets is unmatched. Seamless integration, time-saving.",
+    quote: "Designor&apos;s efficiency in generating code snippets is unmatched. Seamless integration, time-saving.",
     author: "Code Master",
     handle: "@codemaster",
     avatar: "/memoji-avatar-1.png",
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
     avatar: "/memoji-avatar-4.png",
   },
   {
-    quote: "For startups, time is crucial. Designor's speed and efficiency have proven invaluable, allowing rapid iteration.",
+    quote: "For startups, time is crucial. Designor&apos;s speed and efficiency have proven invaluable, allowing rapid iteration.",
     author: "Ava Turner",
     handle: "@avaturner",
     avatar: "/memoji-avatar-3.png",
@@ -89,7 +89,7 @@ function Testimonials() {
             WHAT STUDENTS ARE <span className="text-[#025fc3]">SAYING</span>
           </h2>
           <p className="mt-4 text-gray-600 text-lg max-w-3xl mx-auto">
-            Here's what some of our students have to say about us
+            Here&apos;s what some of our students have to say about us
           </p>
         </div>
       </div>

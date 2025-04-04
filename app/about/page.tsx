@@ -30,7 +30,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-base text-gray-600 mb-8">
               Have questions about our courses, interested in partnerships, or
-              want to join our team? We'd love to hear from you.
+              want to join our team? We&apos;d love to hear from you.
             </p>
           </motion.div>
         </div>
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 About <span className="text-[#025fc3]">CWA</span> Academy
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-xl">
-                We're on a mission to democratize cloud computing education and
+                We&apos;re on a mission to democratize cloud computing education and
                 create pathways to tech careers for everyone.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -137,7 +137,7 @@ export default function AboutPage() {
               Meet Our <span className="text-[#025fc3]">Founder</span>
             </h2>
             <p className="mt-4 text-gray-600 text-lg max-w-3xl mx-auto">
-              The visionary behind CWA Academy's mission to democratize cloud
+              The visionary behind CWA Academy&apos;s mission to democratize cloud
               education
             </p>
           </motion.div>
@@ -220,10 +220,10 @@ export default function AboutPage() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <blockquote className="text-xl italic text-gray-700">
-              "Education is the most powerful tool we have to change lives. By
-              making cloud computing education accessible to everyone, we're not
-              just teaching technical skills—we're creating pathways to economic
-              opportunity and empowering the next generation of innovators."
+            &quot;Education is the most powerful tool we have to change lives. By
+              making cloud computing education accessible to everyone, we&apos;re not
+              just teaching technical skills—we&apos;re creating pathways to economic
+              opportunity and empowering the next generation of innovators.&quot;
             </blockquote>
             <p className="mt-4 font-medium text-right">— Dr. Alex Rivera</p>
           </motion.div>
@@ -470,14 +470,14 @@ export default function AboutPage() {
                   From Retail Worker to AWS Architect
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  "I was working in retail making minimum wage with no clear
+                &quot;I was working in retail making minimum wage with no clear
                   career path. After discovering CWA Academy, I dedicated my
                   evenings to learning AWS. Within 6 months, I passed my
                   Solutions Architect certification and landed a junior cloud
-                  role. Two years later, I'm now a Senior Cloud Architect
+                  role. Two years later, I&apos;m now a Senior Cloud Architect
                   earning six figures. CWA Academy changed my life by making
-                  quality education accessible when I couldn't afford
-                  traditional training."
+                  quality education accessible when I couldn&apos;t afford
+                  traditional training.&quot;
                 </p>
                 <p className="font-medium text-gray-900">
                   — Michael T., CWA Graduate
@@ -637,9 +637,9 @@ export default function AboutPage() {
               Join Our Mission
             </h2>
             <p className="text-blue-100 text-lg mb-8 max-w-2xl">
-              Whether you're a student looking to learn AWS, an instructor
+              Whether you&apos;re a student looking to learn AWS, an instructor
               wanting to share your knowledge, or a company interested in
-              partnering with us, there's a place for you in our community.
+              partnering with us, there&apos;s a place for you in our community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <motion.a

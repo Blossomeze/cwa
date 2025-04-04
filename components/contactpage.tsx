@@ -58,7 +58,7 @@ export default function ContactPage() {
               Get in <span className="text-[#025fc3]">Touch</span>
             </h1>
             <p className="text-base text-gray-600 mb-8">
-              Have questions about our courses, interested in partnerships, or want to join our team? We'd love to hear
+              Have questions about our courses, interested in partnerships, or want to join our team? We&apos;d love to hear
               from you.
             </p>
           </motion.div>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   className="bg-green-50 text-green-700 p-4 rounded-lg mb-6"
                 >
-                  Thank you for your message! We'll get back to you soon.
+                  Thank you for your message! We&apos;ll get back to you soon.
                 </motion.div>
               ) : null}
 

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Play, Filter, Search, BookOpen, Server, Database, Shield, Code, ChevronDown } from "lucide-react"
+import Image from "next/image"
 
 type VideoCategory = "all" | "aws-basics" | "solutions-architect" | "devops" | "security" | "serverless"
 
@@ -172,7 +173,7 @@ export default function ResourcesPage() {
             </h1>
             <p className="text-base text-gray-600 mb-8">
               Enhance your cloud learning journey with our curated collection of AWS tutorial videos. From beginner
-              concepts to advanced architectures, we've got you covered.
+              concepts to advanced architectures, we&apos;ve got you covered.
             </p>
           </motion.div>
         </div>
@@ -257,10 +258,12 @@ export default function ResourcesPage() {
                 >
                   <div className="relative">
                     <div className="aspect-video w-full relative">
-                      <img
+                      <Image
                         src={video.thumbnail || "/placeholder.svg"}
                         alt={video.title}
-                        className="w-full h-full object-cover"
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                       <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
                         <motion.div
@@ -370,10 +373,10 @@ export default function ResourcesPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-3xl font-bold mb-4">
-              Can't Find What You're <span className="text-[#025fc3]">Looking For</span>?
+              Can&apos;t Find What You&apos;re <span className="text-[#025fc3]">Looking For</span>?
             </h2>
             <p className="text-gray-600 mb-8">
-              If you have a specific AWS topic you'd like us to cover in a future video, let us know! We're constantly
+              If you have a specific AWS topic you&apos;d like us to cover in a future video, let us know! We&apos;re constantly
               expanding our library based on community requests.
             </p>
 
